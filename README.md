@@ -31,6 +31,17 @@ _Mostrará a lista de dados gravados com Java 8_
 
 `java saida`
 
+
+#### Json
+
+`javac -cp "gson-2.8.2.jar":. impacta/Entrada.java`
+
+`java -cp "gson-2.8.2.jar":. impacta.Entrada`
+
+`javac -cp "gson-2.8.2.jar":. impacta/Saida.java`
+
+`java -cp "gson-2.8.2.jar":. impacta.Saida`
+
 #### Outros comandos úteis para subir código para o Git Hub
 
 ###### _fluxo normal_

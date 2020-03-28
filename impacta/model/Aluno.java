@@ -1,3 +1,4 @@
+package impacta.model;
 
 import java.io.Serializable;
 
@@ -7,8 +8,12 @@ public class Aluno implements Serializable {
     
     private String nome;
     private int matricula;
+    
+    public Aluno() {
 
-    public Aluno(String nome, int matricula) {
+	}
+
+	public Aluno(String nome, int matricula) {
         this.nome = nome;
         this.matricula = matricula;
     }
